@@ -1,0 +1,19 @@
+//array
+let a={
+    brand:["bmw","audi","hyundai","kio"],
+    colour:["red","orange","green","yellow"],
+    speed:["120km","140km","145km","167km"]
+
+}
+console.log("brand",a.brand[0]);
+console.log("colour",a.colour[1]);
+console.log("speed",a.speed[3]);
+
+let b={
+    age:[20,30,40,87],
+    year:[2000,3000,3034],
+    result:["pass","fail","average","poor"]
+}
+console.log("number",b.age[3]);
+console.log("year",b.year[2]);
+console.log("result",b.result[3]);

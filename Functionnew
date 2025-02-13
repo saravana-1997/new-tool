@@ -1,0 +1,38 @@
+//hoisting or function declaration
+abc();
+
+function abc(){
+    console.log("this is function declaration");
+    
+}
+//functionexpression
+
+let a=function name1(c)
+{
+ console.log(c);
+}
+a("expreesion")
+
+//anonymonous
+let b=function(d){
+    console.log(d);
+}
+b("anonymonous");
+
+(function(e){
+  console.log(e);
+})("inimmmediate invoke function");
+
+//arrow function 
+let f=(g)=>{console.log(g)}
+f("arrowfunction");
+
+//function with return
+function return1(a,b)
+{
+   c=a+b;
+   return c;
+}
+console.log(`the value of c `+return1(6,12));
+let d=6+c;
+console.log(`the value of d `+d);

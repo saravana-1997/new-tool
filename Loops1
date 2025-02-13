@@ -1,0 +1,44 @@
+for(let a=1;a<=5;a++)
+{
+    console.log("javascrip");
+    
+}
+
+//while
+let b=10;
+while(b>=5)
+{
+    console.log(b);
+    b--
+}
+
+//do while
+
+let c=1;
+do{
+    console.log("js");
+    c++
+}while(c>1)
+{
+
+}
+
+//for of
+let d=["apple","orange"];
+for(separate of d)
+{
+    console.log(d.toUppercase());
+}
+//for in
+
+let a={
+    name:"saravana",
+    id:"1234",
+    year:"1997",
+
+}
+
+for(output in a)
+{
+    console.log(ouput+":"+output[a]);
+}

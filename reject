@@ -1,0 +1,75 @@
+function a(){
+    return new Promise((resolve,reject)=>{
+setTimeout(() =>
+         {
+            let browser=true;
+            if(browser)
+            {
+        //    console.log("browser launch");
+          resolve("browser launched");
+            }
+            else{
+        //     console.log("browser not launch");
+             reject("browser not launched")
+
+            }
+            
+    }, 2000);
+});
+}
+
+function b(){
+    return new Promise((resolve,reject)=>{
+    setTimeout(() =>
+         {
+            let search=true;
+            if(search)
+            {
+      //        console.log("search product");
+             resolve("product searched successfully");
+            }
+            else{
+   //            console.log("search not completed");
+              reject("project not searched successfully");
+            }
+            }, 4000);
+});
+}
+
+function c(){
+    return new Promise((resolve,reject)=>{
+    setTimeout(() =>
+         {
+            let order=true;
+            if(order){
+         //   console.log("order place");
+            resolve("order successfully placed")
+            }
+            else{
+         //       console.log("order not placed");
+                reject("order not successfully placed")
+            }
+        
+    }, 1000);
+    });
+}
+
+async function completed (){
+
+    try{
+        let first=await a();
+        console.log(first);
+
+        let second=await b();
+        console.log(second);
+
+        let three=await c();
+        console.log(three);
+        }
+        catch(error)
+        {
+            console.log(error);
+        }
+
+}
+completed();

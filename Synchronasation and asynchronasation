@@ -1,0 +1,30 @@
+
+function a(){
+    setTimeout(() =>
+         {
+            console.log("browser launch");
+            
+        
+    }, 2000);
+}
+
+function b(){
+    setTimeout(() =>
+         {
+            console.log("search");
+            
+        
+    }, 4000);
+}
+function c(){
+    setTimeout(() =>
+         {
+            console.log("order place");
+            
+        
+    }, 1000);
+}
+a();
+b();
+c();
+

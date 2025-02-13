@@ -1,0 +1,26 @@
+//
+
+let s1=["abcd","efgh","ijkl","mnop"]
+s1.push("new");
+console.log(s1);
+
+let s2=["one","two","three","four"]
+s2.pop("four");
+console.log(s2);
+
+let s3=["five","six","seven","eight"]
+s3.shift("five");
+console.log(s3);
+
+let s4=["nine","ten"]
+s3.unshift("one");
+console.log(s3);
+
+let s5=["abc","def","ghi","bcd"]
+console.log(s5.sort());
+
+let s6="sooner"
+console.log(s6.split("").reverse("").join(""));
+
+
+

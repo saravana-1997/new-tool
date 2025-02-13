@@ -1,0 +1,58 @@
+//array method
+
+//push
+let pu=[1,2,3,4,5]
+pu.push(6)
+console.log(pu);
+
+//pop
+let po=[6,7,8,9,10]
+po.pop(10)
+console.log(po);
+
+//shift
+let sh=[1,2,3,4,6];
+sh.shift(1);
+console.log(sh);
+
+//unshift
+let unsh=[7,8,9,10]
+unsh.unshift(0)
+console.log(unsh);
+
+//sort
+let so=["c","d","f","h","g"]
+console.log(so.sort());
+
+//reverse
+let rev="saravanakumar"
+console.log(rev.split("").reverse("").join(""));
+
+
+//some -it atleast one element condition is true
+let s=[1,2,3,4,5]
+let d=s.some((e)=>e%2==0);
+console.log(d);
+
+//every -it check every element in an array is true
+let p=[6,7,8,9]
+let f=p.every((g)=>g<10);
+console.log(f);
+
+//map based on the every condition it changes all the value
+let q=[11,12,13,14]
+let h=q.map((r)=>r*2);
+console.log(h);
+
+//filter -it filter the data from the array
+let r=[15,20,16,17]
+let k=r.filter((f)=>f%2==0);
+console.log(k);
+
+//reduce -sum of all value
+let t=[12,15,16,17,18]
+let j=t.reduce((a,b)=>a+b,0);
+console.log(j);
+
+//sort- sorts in ascending order
+//  let m=[14,15,17,18]

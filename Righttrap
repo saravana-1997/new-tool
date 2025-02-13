@@ -1,0 +1,9 @@
+
+//right trap
+
+function right(a,b){
+
+
+    console.log(`this is new function ${a} ${b}`);
+}
+right("saravana","kumar");

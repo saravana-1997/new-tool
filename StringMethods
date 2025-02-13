@@ -1,0 +1,65 @@
+//length
+let len="javascript";
+console.log(len.length);
+
+//uppercase
+let toup="saravana";
+console.log(toup.toUpperCase());
+
+//lowercase
+let tolow="KUMAR";
+console.log(tolow.toLowerCase());
+
+//charAt
+let chr="saravana";
+console.log(chr.charAt(5));
+
+//indexof
+let ind="kumar";
+console.log(ind.indexOf("u"));
+
+//lastindexof
+let last="java";
+console.log(last.lastIndexOf("a"));
+
+//slice
+let s1="slice";
+console.log(s1.slice(-2));
+
+//substring
+let sub="new class";
+console.log(sub.substring(0,5));
+
+//replace
+let rep="java script class";
+console.log(rep.replace("class","concept"));
+
+//replaceall
+let repp="java selenium java new";
+console.log(repp.replaceAll("java","new"));
+
+//split
+let spl="hello world";
+console.log(spl.split(" "));
+
+//trim
+let tr="  hi  "
+console.log(tr.trim());
+
+//concat
+let con="sarvana"
+console.log((con.concat(".J")));
+
+//startWith
+let start="javas"
+console.log(start.startsWith("j"));
+
+//endWith
+let end="javas"
+console.log(end.endsWith("s"));
+
+//includes
+let include="java selenium"
+console.log(include.includes("selenium"));
+
+

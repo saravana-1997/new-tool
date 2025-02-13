@@ -1,0 +1,38 @@
+//function syntax
+
+function name1()
+{
+    console.log("function declaration");
+}
+name1();
+
+//function statement
+function name2(a)
+{
+ console.log(a);
+}
+name2("function statement");
+
+//function expression
+let a=function name3(b)
+{
+console.log(b);
+}
+a("function expression");
+
+//anonyms
+let b=function (c)
+{
+    console.log(c)
+}
+b("anonyums");
+
+//imned at invoke function expression
+(function(d){
+    console.log(d)
+
+})("invoke function");
+
+//arrow function
+let e=(f)=>{console.log(f)}
+console.log("arrow function");

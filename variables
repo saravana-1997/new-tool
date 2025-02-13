@@ -1,0 +1,11 @@
+var a=7
+var a
+console.log(a);
+var a=8
+console.log(a);
+
+
+let b=8
+console.log(b);
+b=9
+console.log(b);

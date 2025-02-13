@@ -1,0 +1,37 @@
+//function
+//syntax
+function name2(){
+    console.log("java");
+    console.log("javascript");
+    console.log("css");
+    console.log("c++");
+}
+name2();
+
+//function statement and declarartion
+function name1(a){
+    console.log(a)
+}
+name1("name1")
+
+//function Expression
+let a=function c(c){
+    console.log(c);
+}
+a("name3")
+
+//anoymonous function
+let d=function(f)
+{
+    console.log(f);
+}
+d("name4");
+//Immediate invoke function expression
+(function (life)
+{
+    console.log(life);
+})("immediate")
+
+//Arrow function
+let e=(j)=>{console.log(j)}
+e("name5")

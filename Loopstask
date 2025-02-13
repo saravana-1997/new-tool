@@ -1,0 +1,14 @@
+
+//let a=["apple","orange","mango","banana"];
+    
+ //   for(let separate of a)
+  //  {
+  //      console.log(separate.sort());
+  //  }
+
+    let b=["apple"];
+        for(let separate of b)
+        {
+            console.log(separate.split(""));    
+        }
+    

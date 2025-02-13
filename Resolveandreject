@@ -1,0 +1,68 @@
+
+function a(){
+    return new Promise((resolve,reject)=>{
+     
+        setTimeout(() => {
+            let a=true;
+            if(a)
+            {
+                resolve("browser launch");
+            }
+            else{
+                reject("browser not launched");
+            }
+            },2000);
+    });
+}
+function b(){
+    return new Promise((resolve,reject)=>{
+        setTimeout(() => {
+            let b=true;
+            if(b)
+            {
+                resolve("search completed")
+            }
+            else
+            {
+                reject("search not completed");
+            }
+
+            
+        },1000);
+    
+});
+}
+
+function c(){
+    return new Promise((resolve,reject)=>{
+        setTimeout(() => {
+            let c=true;
+            if(c)
+            {
+                resolve("product add to cart")
+            }
+            else{
+                reject(":product not add to cart")
+            }
+        }, 4000);
+    });
+}
+
+async function completed (){
+    try{
+        let abc=await a();
+        console.log(abc);
+
+        let def=await b();
+        console.log(def);
+
+        let ghi=await c();
+        console.log(ghi);
+        }
+        catch(error)
+        {
+            console.log(error);
+            
+        }
+    } 
+completed();

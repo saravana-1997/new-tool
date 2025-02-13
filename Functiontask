@@ -1,0 +1,16 @@
+
+function name1()
+{
+let age=18;
+let result=(age>=18 && age<=100)?"he is eliglible to vote":"he is not eligible to vote";
+console.log(result);
+}
+name1()
+
+function name2()
+{
+    let age1=18;
+    let result1=(age1>=20  || age1<=40)?"he is eligible to drive":"he is not eligible to drive"
+   console.log(result1);
+}
+name2()

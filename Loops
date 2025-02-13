@@ -1,0 +1,51 @@
+//loops
+//for lopp
+//while loop
+//do while
+//for of
+//for in
+
+//syntax
+//for(initialization;condition;increment){
+//}
+for(let a=1;a<=5;a++)
+{
+    console.log("javascript");
+}
+
+//whileloop
+let a=10;
+while(a>=5)
+{
+    console.log("ab");
+    a--
+}
+
+//do-while
+let b=1;
+do{
+   console.log(b);
+   b++
+}
+while(b<5)
+{
+
+}
+//forof
+let c=["apple","mango","orange","red"];
+
+for(separate of c)
+{
+    console.log(separate);
+}
+
+//for in 
+let e={
+    name:"saravana",
+    age:22,
+    id:123
+    }
+    for(transfer in e)
+    {
+        console.log(transfer+":"+e[transfer]);
+    }

@@ -1,0 +1,26 @@
+
+let le=10;
+let les=20;
+console.log(le<=les);
+
+let gr =20
+let grs=100;
+console.log(gr>=grs);
+
+//&& __>and
+//||-->or
+//!-->not
+
+let no=10;
+let no1=10;
+console.log(no!=no1);
+
+//&&
+let age=20;
+let result=(age>=0&& age<=40)?"he is young":"he is old";
+console.log(result);
+
+//||
+let age1=55;
+let result1=(age1>=30 ||age<=50)?"he is eligible to vote":"he is not eligible to vote";
+console.log(result1);

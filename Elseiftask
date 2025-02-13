@@ -1,0 +1,32 @@
+//Else if
+
+let age=100;
+if(age>=100)
+{
+ console.log("small child");
+ 
+}
+else if (age>=12)
+{
+    console.log("child");
+    
+}
+else if(age>=18)
+{
+    console.log("younster");
+    
+}
+else if(age>=25)
+{
+    console.log("young men");
+    
+}
+else if(age>=50)
+{
+    console.log("old man")
+}
+else
+{
+    console.log("not available");
+    
+}

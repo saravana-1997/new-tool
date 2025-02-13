@@ -1,0 +1,40 @@
+
+function a(callback){
+    setTimeout(() =>
+         {
+            console.log("browser launch");
+            callback();
+            
+        
+    }, 2000);
+}
+
+
+
+function b(callback){
+    setTimeout(() =>
+         {
+            console.log("search");
+            callback();
+            
+        
+    }, 4000);
+}
+function c(callback){
+    setTimeout(() =>
+         {
+            console.log("order place");
+            callback();
+        
+    }, 1000);
+}
+
+a(()=>{
+    b(()=>{
+        c(()=>{
+            console.log("order delivered");
+        });
+    });
+});
+
+

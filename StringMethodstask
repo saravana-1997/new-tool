@@ -1,0 +1,2 @@
+let a="chennai city center"
+console.log(a.replaceAll("c","C"));

@@ -1,0 +1,32 @@
+
+function a(callback){
+    setTimeout(() =>  
+        {
+        console.log("browser launch");
+        callback();
+    },2000);
+
+}
+function b(callback){
+setTimeout(() => {
+    console.log("launch url");
+    callback();
+    
+}, 5000);
+
+}
+function c(callback){
+    setTimeout(() => {
+        console.log("search");
+       callback(); 
+    }, 1000);
+}
+
+a(()=>{
+ b(()=>{
+    c(()=>{
+        console.log("product add to card");
+        
+    });
+ });
+});
